@@ -22,7 +22,7 @@
           >
             <img
               v-show="!isShowMenu"
-              src="/public/images/sidebar/Menu.svg"
+              src="/public/images/sidebar/menu.svg"
               alt="menu"
               class="w-6 h-6"
             />
