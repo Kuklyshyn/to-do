@@ -27,14 +27,14 @@ const updateValue = (event) => {
   width: 100%;
   height: 88px;
   border-radius: 8px;
-  border: 1px solid #f6f6f6;
+  border: 1px solid #d9d9d9;
   font-size: 16px;
   padding: 20px;
   resize: none;
   outline: none;
   color: #000000;
   transition: all 0.3s ease;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 
   &:focus {
     border-color: #4f4f4f;
