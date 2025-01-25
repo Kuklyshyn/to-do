@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  justify-content: center;
+  justify-content: flex-start;
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -14,17 +14,22 @@
   @media (min-width: 1024px) {
     position: static;
     flex-direction: row;
+    justify-content: center;
     height: 100vh;
   }
 }
 
 .content {
   position: relative;
-  max-height: calc(100vh - 250px);
+  max-height: calc(100vh - 165px);
   overflow: hidden;
   overflow-y: auto;
   flex: 1;
-  padding-top: 15px;
+  padding-top: 90px;
+
+  @media only screen and (max-width: 1024px) and (-webkit-device-pixel-ratio: 3) {
+    max-height: calc(100vh - 265px);
+  }
 
   @media (min-width: 1024px) {
     width: 100%;
